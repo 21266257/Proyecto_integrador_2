@@ -43,7 +43,7 @@ class Program
             switch (opcion)
             {
                 case 1:
-                    Console.WriteLine("\n[Interfaz visual del mapa en desarrollo...]");
+                    MostrarAsientos(sala, filas, columnas);
                     break;
                 case 2:
                     Console.WriteLine("\n[Módulo de reserva - En desarrollo");
@@ -67,10 +67,38 @@ class Program
 
             if (opcion != 6)
             {
-                Console.WriteLine("\nPresione cualquier tecla para volver al menú...");
+                Console.WriteLine("\nPresione cualquier tecla para volver al menú");
                 Console.ReadKey();
             }
 
         } while (opcion != 6);
+    }
+    static void MostrarAsientos(bool[,] sala, int filas, int columnas)
+    {
+        Console.WriteLine("\n ╔════════════════════════════════════════════════╗");
+        Console.WriteLine(" ║               MAPA DE LA SALA                  ║");
+        Console.WriteLine(" ╚════════════════════════════════════════════════╝\n");
+
+        // Encabezado de columnas
+        Console.Write("       ");
+        for (int j = 0; j < columnas; j++) Console.Write($" C{j + 1}   ");
+        Console.WriteLine("\n");
+
+        // Filas con los asientos
+        for (int i = 0; i < filas; i++)
+        {
+            Console.Write($"  F{i + 1}   ");
+            for (int j = 0; j < columnas; j++)
+            {
+                // [L] = Libre, [O] = Ocupado
+                string estado = sala[i, j] ? "[ L ]" : "[ O ]";
+                Console.Write(estado + "  ");
+            }
+            Console.WriteLine("\n");
+        }
+
+        Console.WriteLine(" --------------------------------------------------");
+        Console.WriteLine("  Simbología:  [ L ] Disponible    [ O ] Ocupado");
+        Console.WriteLine(" --------------------------------------------------");
     }
 }
