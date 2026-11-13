@@ -1,0 +1,16 @@
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\bin\Debug\net10.0\Menu_Cine.exe
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\bin\Debug\net10.0\Menu_Cine.deps.json
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\bin\Debug\net10.0\Menu_Cine.runtimeconfig.json
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\bin\Debug\net10.0\Menu_Cine.dll
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\bin\Debug\net10.0\Menu_Cine.pdb
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\Menu_Cine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\Menu_Cine.AssemblyInfoInputs.cache
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\Menu_Cine.AssemblyInfo.cs
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\Menu_Cine.csproj.CoreCompileInputs.cache
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\Menu_Cine.sourcelink.json
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\Menu_Cine.dll
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\refint\Menu_Cine.dll
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\Menu_Cine.pdb
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\Menu_Cine.genruntimeconfig.cache
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\ref\Menu_Cine.dll
+C:\Users\yaelz\Downloads\Proyecto_integrador\proyecto_integrador2\Proyecto_integrador_2\Codigo_Fuente\Menu_Cine\Menu_Cine\obj\Debug\net10.0\Menu_Cine.csproj.Up2Date
