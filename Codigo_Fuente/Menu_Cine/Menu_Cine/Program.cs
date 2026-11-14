@@ -180,4 +180,27 @@ class Program
         }
         Console.WriteLine(" --------------------------------------------------");
     }
+    static void ConsultarAsiento(bool[,] sala, int filas, int columnas)
+    {
+        Console.Clear();
+        MostrarAsientos(sala, filas, columnas);
+
+        Console.WriteLine("\n ╔════════════════════════════════════════════════╗");
+        Console.WriteLine(" ║              CONSULTAR ASIENTO                 ║");
+        Console.WriteLine(" ╚════════════════════════════════════════════════╝\n");
+
+        int f = 0, c = 0;
+
+        Console.Write($" >> Ingrese número de fila (1 a {filas}): ");
+        if (!int.TryParse(Console.ReadLine(), out f)) f = 0;
+
+        Console.Write($" >> Ingrese número de columna (1 a {columnas}): ");
+        if (!int.TryParse(Console.ReadLine(), out c)) c = 0;
+
+        // Ajustar a índices base 0 de C#
+        f--;
+        c--;
+
+        Console.WriteLine("\n --------------------------------------------------");
+    }   
 }
