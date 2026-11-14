@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\julio\\OneDrive\\Desktop\\Roberto\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\",
+  "WorkspaceRootPath": "C:\\Users\\yaelz\\Downloads\\Proyecto_integrador\\proyecto_integrador2\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C859659F-BAE6-75C4-5FA8-957A13D3235F}|Menu_Cine\\Menu_Cine.csproj|c:\\users\\julio\\onedrive\\desktop\\roberto\\proyecto_integrador_2\\codigo_fuente\\menu_cine\\menu_cine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C859659F-BAE6-75C4-5FA8-957A13D3235F}|Menu_Cine\\Menu_Cine.csproj|c:\\users\\yaelz\\downloads\\proyecto_integrador\\proyecto_integrador2\\proyecto_integrador_2\\codigo_fuente\\menu_cine\\menu_cine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C859659F-BAE6-75C4-5FA8-957A13D3235F}|Menu_Cine\\Menu_Cine.csproj|solutionrelative:menu_cine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\julio\\OneDrive\\Desktop\\Roberto\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yaelz\\Downloads\\Proyecto_integrador\\proyecto_integrador2\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Program.cs",
               "RelativeDocumentMoniker": "Menu_Cine\\Program.cs",
-              "ToolTip": "C:\\Users\\julio\\OneDrive\\Desktop\\Roberto\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Program.cs",
+              "ToolTip": "C:\\Users\\yaelz\\Downloads\\Proyecto_integrador\\proyecto_integrador2\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Program.cs",
               "RelativeToolTip": "Menu_Cine\\Program.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAgwEUAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwIIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-13T02:48:52.171Z",
               "EditorCaption": ""

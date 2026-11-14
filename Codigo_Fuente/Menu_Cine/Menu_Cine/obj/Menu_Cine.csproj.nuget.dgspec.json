@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julio\\OneDrive\\Desktop\\Roberto\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Menu_Cine.csproj": {}
+    "C:\\Users\\yaelz\\Downloads\\Proyecto_integrador\\proyecto_integrador2\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Menu_Cine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julio\\OneDrive\\Desktop\\Roberto\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Menu_Cine.csproj": {
+    "C:\\Users\\yaelz\\Downloads\\Proyecto_integrador\\proyecto_integrador2\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Menu_Cine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julio\\OneDrive\\Desktop\\Roberto\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Menu_Cine.csproj",
+        "projectUniqueName": "C:\\Users\\yaelz\\Downloads\\Proyecto_integrador\\proyecto_integrador2\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Menu_Cine.csproj",
         "projectName": "Menu_Cine",
-        "projectPath": "C:\\Users\\julio\\OneDrive\\Desktop\\Roberto\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Menu_Cine.csproj",
-        "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julio\\OneDrive\\Desktop\\Roberto\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\obj\\",
+        "projectPath": "C:\\Users\\yaelz\\Downloads\\Proyecto_integrador\\proyecto_integrador2\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\Menu_Cine.csproj",
+        "packagesPath": "C:\\Users\\yaelz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yaelz\\Downloads\\Proyecto_integrador\\proyecto_integrador2\\Proyecto_integrador_2\\Codigo_Fuente\\Menu_Cine\\Menu_Cine\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\yaelz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
