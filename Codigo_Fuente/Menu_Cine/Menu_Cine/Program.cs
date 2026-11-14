@@ -49,7 +49,7 @@ class Program
                     ReservarAsiento(sala, filas, columnas);
                     break;
                 case 3:
-                    Console.WriteLine("\n[Módulo de liberación - En desarrollo");
+                    LiberarAsiento(sala, filas, columnas);
                     break;
                 case 4:
                     Console.WriteLine("\n[Módulo de consulta - En desarrollo");
@@ -138,6 +138,45 @@ class Program
         else
         {
             Console.WriteLine(" Error: Coordenadas fuera de rango o entrada inválida.");
+        }
+        Console.WriteLine(" --------------------------------------------------");
+    }
+    static void LiberarAsiento(bool[,] sala, int filas, int columnas)
+    {
+        Console.Clear();
+        MostrarAsientos(sala, filas, columnas);
+
+        Console.WriteLine($"\n ╔════════════════════════════════════════════════╗");
+        Console.WriteLine($" ║               LIBERAR UN ASIENTO               ║");
+        Console.WriteLine($" ╚════════════════════════════════════════════════╝\n");
+
+        int f = 0, c = 0;
+
+        Console.Write($" >> Ingrese número de fila (1 a {filas}): ");
+        if (!int.TryParse(Console.ReadLine(), out f)) f = 0;
+
+        Console.Write($" >> Ingrese número de columna (1 a {columnas}): ");
+        if (!int.TryParse(Console.ReadLine(), out c)) c = 0;
+
+        f--;
+        c--;
+
+        Console.WriteLine("\n --------------------------------------------------");
+        if (f >= 0 && f < filas && c >= 0 && c < columnas)
+        {
+            if (!sala[f, c])
+            {
+                sala[f, c] = true;
+                Console.WriteLine(" [✔] ¡Asiento liberado con éxito!");
+            }
+            else
+            {
+                Console.WriteLine(" [!] Aviso: El asiento ya estaba libre.");
+            }
+        }
+        else
+        {
+            Console.WriteLine(" [X] Error: Coordenadas fuera de rango o entrada inválida.");
         }
         Console.WriteLine(" --------------------------------------------------");
     }
