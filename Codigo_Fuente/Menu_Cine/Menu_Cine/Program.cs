@@ -22,7 +22,7 @@ class Program
         do
         {
             Console.Clear();
-            // Diseño único y claro utilizando caracteres de bordes dobles
+
             Console.WriteLine("╔══════════════════════════════════════════════════════╗");
             Console.WriteLine("║                  --- CINE CyTI ---                   ║");
             Console.WriteLine("║          SISTEMA DE ADMINISTRACIÓN DE SALAS          ║");
@@ -52,7 +52,7 @@ class Program
                     LiberarAsiento(sala, filas, columnas);
                     break;
                 case 4:
-                    Console.WriteLine("\n[Módulo de consulta - En desarrollo");
+                    ConsultarAsiento(sala, filas, columnas);
                     break;
                 case 5:
                     Console.WriteLine("\n[Módulo de estadísticas - En desarrollo");
@@ -73,8 +73,11 @@ class Program
 
         } while (opcion != 6);
     }
+
     static void MostrarAsientos(bool[,] sala, int filas, int columnas)
     {
+        Console.Clear();
+
         Console.WriteLine("\n ╔════════════════════════════════════════════════╗");
         Console.WriteLine(" ║               MAPA DE LA SALA                  ║");
         Console.WriteLine(" ╚════════════════════════════════════════════════╝\n");
@@ -105,6 +108,7 @@ class Program
     static void ReservarAsiento(bool[,] sala, int filas, int columnas)
     {
         Console.Clear();
+
         MostrarAsientos(sala, filas, columnas);
 
         Console.WriteLine($"\n ╔════════════════════════════════════════════════╗");
@@ -141,9 +145,11 @@ class Program
         }
         Console.WriteLine(" --------------------------------------------------");
     }
+
     static void LiberarAsiento(bool[,] sala, int filas, int columnas)
     {
         Console.Clear();
+
         MostrarAsientos(sala, filas, columnas);
 
         Console.WriteLine($"\n ╔════════════════════════════════════════════════╗");
@@ -167,19 +173,20 @@ class Program
             if (!sala[f, c])
             {
                 sala[f, c] = true;
-                Console.WriteLine(" [✔] ¡Asiento liberado con éxito!");
+                Console.WriteLine("¡Asiento liberado con éxito!");
             }
             else
             {
-                Console.WriteLine(" [!] Aviso: El asiento ya estaba libre.");
+                Console.WriteLine("Aviso: El asiento ya estaba libre.");
             }
         }
         else
         {
-            Console.WriteLine(" [X] Error: Coordenadas fuera de rango o entrada inválida.");
+            Console.WriteLine("Error: Coordenadas fuera de rango o entrada inválida.");
         }
         Console.WriteLine(" --------------------------------------------------");
     }
+
     static void ConsultarAsiento(bool[,] sala, int filas, int columnas)
     {
         Console.Clear();
@@ -200,7 +207,22 @@ class Program
         // Ajustar a índices base 0 de C#
         f--;
         c--;
-
         Console.WriteLine("\n --------------------------------------------------");
-    }   
+        if (f >= 0 && f < filas && c >= 0 && c < columnas)
+        {
+            if (sala[f, c])
+            {
+                Console.WriteLine($"El asiento F{f + 1}-C{c + 1} se encuentra DISPONIBLE [ L ].");
+            }
+            else
+            {
+                Console.WriteLine($"El asiento F{f + 1}-C{c + 1} se encuentra OCUPADO [ O ].");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Error: Coordenadas fuera de rango o entrada inválida.");
+        }
+        Console.WriteLine(" --------------------------------------------------");
+    }
 }
