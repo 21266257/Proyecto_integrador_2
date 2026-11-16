@@ -55,7 +55,7 @@ class Program
                     ConsultarAsiento(sala, filas, columnas);
                     break;
                 case 5:
-                    Console.WriteLine("\n[Módulo de estadísticas - En desarrollo");
+                    MostrarPorcentaje(sala, filas, columnas);
                     break;
                 case 6:
                     Console.WriteLine("\nCerrando el sistema... ¡Hasta pronto!");
@@ -228,6 +228,10 @@ class Program
 
     static void MostrarPorcentaje(bool[,] sala, int filas, int columnas)
     {
+        Console.Clear();
+        Console.WriteLine($"\n ╔════════════════════════════════════════════════╗");
+        Console.WriteLine($" ║             PORCENTAJE DE OCUPACIÓN            ║");
+        Console.WriteLine($" ╚════════════════════════════════════════════════╝\n");
         int totalAsientos = filas * columnas;
         int disponibles = 0;
         int ocupados = 0;
@@ -247,7 +251,13 @@ class Program
                 }
             }
         }
+        double porcentajeOcupacion = (double)ocupados / totalAsientos * 100;
 
+        Console.WriteLine($" >> Total de asientos en la sala: {totalAsientos}");
+        Console.WriteLine($" >> Asientos DISPONIBLES:         {disponibles}");
+        Console.WriteLine($" >> Asientos OCUPADOS:            {ocupados}");
+        Console.WriteLine($"\n >> Porcentaje de Ocupación:      {porcentajeOcupacion:0.00} %");
+        Console.WriteLine("\n --------------------------------------------------");
     }
 }
     

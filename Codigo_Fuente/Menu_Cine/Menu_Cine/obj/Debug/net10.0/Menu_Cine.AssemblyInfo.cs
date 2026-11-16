@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Menu_Cine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab099a0e5c3ba99fbe5172bacb11123d5490b68f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7c67d86be17bed5f7e4e00d328607838cb08423")]
 [assembly: System.Reflection.AssemblyProductAttribute("Menu_Cine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Menu_Cine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
