@@ -225,4 +225,29 @@ class Program
         }
         Console.WriteLine(" --------------------------------------------------");
     }
+
+    static void MostrarPorcentaje(bool[,] sala, int filas, int columnas)
+    {
+        int totalAsientos = filas * columnas;
+        int disponibles = 0;
+        int ocupados = 0;
+
+        // Recorrer toda la matriz para contar el estado de cada asiento
+        for (int f = 0; f < filas; f++)
+        {
+            for (int c = 0; c < columnas; c++)
+            {
+                if (sala[f, c])
+                {
+                    disponibles++;
+                }
+                else
+                {
+                    ocupados++;
+                }
+            }
+        }
+
+    }
 }
+    
